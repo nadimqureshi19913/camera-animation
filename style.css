@@ -1,0 +1,381 @@
+*
+{
+  transition:all 0.8s ease-in-out;
+  
+}
+body
+{
+  background:rgba(0,0,0,0.6);
+}
+.container:hover
+{
+  transform:scale(1.1);
+  box-shadow:10px 20px 20px 
+}
+.container
+{
+  position:relative;
+  height:400px;
+  width:500px;
+  background:red;
+  left:100px;
+  top:70px;
+  bottom:20px;
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+.card-container-1
+{
+  position:absolute;
+    background:white;
+  height:400px;
+  width:500px;
+  
+  
+  overflow:hidden;
+  display:block;
+}
+.text{
+    position:absolute;
+}
+.text>div{
+    display:inline-block;
+}
+.text h1
+{
+position:absolute;
+font-size: 200px;;
+top:-120px;
+left:130px;
+color:rgba(0,0,0,0.2);
+}
+.text h5{
+    position:absolute;
+    font-size:20px;
+    left:70px;
+}
+
+.oval-icon img
+{
+position:absolute;
+height:20px;
+width:50px;
+left:15px;
+top:35px;
+}
+.card-1{
+    position:absolute;
+    height:300px;
+    width:500px;
+    background:black;
+    top:200px;
+    opacity:0;
+
+}
+.card-2{
+    position:absolute;
+    height:400px;
+    width:870px;
+    background:black;
+    top:145px;
+    opacity:1;
+    transform:rotate(-38deg);
+    left:-55px;
+
+}
+.container:hover .card-2{
+    opacity:0;
+    top:300px;
+}
+.container:hover .card-1{
+    opacity:1;
+    top:140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card-container-2
+{
+  position:absolute;
+    
+  height:400px;
+  width:500px;
+  
+  display:block;
+}
+.container:hover .content h1
+{
+    left:40px;
+    top:190px;
+    font-size:40px;
+}
+.content h1
+{
+position:absolute;
+font-size:60px;
+left:350px;
+top:80px;
+color:white;
+}
+.container:hover .content h5
+{
+    left:45px;
+    top:235px;
+}
+.content h5
+{
+    position:absolute;
+    font-size:20px;
+    left:350px;
+    top:150px;
+    color:rgba(100,100,100,1.5);;
+}
+.container:hover .content ul
+{
+    left:20px;
+    top:290px;
+}
+.content ul
+{
+position:absolute;
+top:220px;
+left:320px;
+color:rgba(100,100,100,1.5);
+}
+.container:hover .content hr
+{
+    left:45px;
+    top:290px;
+}
+.content hr
+{
+position:absolute;
+width:110px;
+top:210px;
+left:350px;
+}
+.container:hover button
+{
+opacity:0;
+}
+.buttons button
+{
+    position:absolute;
+    top:350px;
+    left:350px;
+    border-radius:20px;
+    width:140px;
+    height:30px;
+}
+
+
+
+
+
+
+
+.card-container-3
+{
+  position:absolute;
+  
+  height:400px;
+  width:500px;
+  
+  display:block;
+}
+.vr-image img
+{
+position:absolute;
+height:250px;
+width:350px;
+top:100px;
+left:-60px;
+  
+}
+.container:hover .vr-image img
+{
+    height:150px;
+width:250px;
+left:20px;
+top:60px;
+ -webkit-filter: drop-shadow(40px 25px 5px black);
+}
+.container:hover .form form
+{
+    opacity:1
+}
+.form form
+{
+    position:absolute;
+    left:300px;
+    height:20px;
+    top:145px; 
+    opacity:0;
+    color:rgba(85,85,85,0.9);
+    
+}
+.card-number-1
+{
+    background: transparent;
+    border: 1px solid grey;
+}
+.card-number-2
+{
+    background:transparent;
+    border: 1px solid grey;
+}
+.card-number-3
+{
+    background:transparent;
+    border: 1px solid grey;
+}
+.card-number-4
+{
+    background: transparent;
+    border: 1px solid grey;
+    
+}
+.name
+{
+    background: transparent;
+    border: 1px solid grey;
+}
+.container:hover  .arrow-icon img
+{
+    opacity:1;
+    left:310px;
+}
+.arrow-icon img
+{
+    position:absolute;
+    height:20px;
+    width:30px;
+    top:355px;
+    left:290px;
+    opacity:0;
+}
+.buttons-2 button
+{
+    position:absolute;
+    top:350px;
+    left:350px;
+    border-radius:20px;
+    width:140px;
+    height:30px;
+    opacity:0;
+}
+.container:hover .buttons-2 button
+{
+opacity:1;
+}
+
+
+
+
+.card-container-4
+{
+  position:absolute;
+
+  height:400px;
+  width:500px;
+
+  display:block;
+}
+.container:hover .img-1 img
+{
+   rotate: 360deg;
+   left:-80px;
+   top:-90px;
+   -webkit-filter: drop-shadow(40px 25px 5px black);
+}
+.img-1 img
+{
+position:absolute;
+height:100px;
+width:100px;
+rotate: 120deg;
+left:-45px;
+top:-45px;
+-webkit-filter: drop-shadow(40px 25px 5px black);
+}
+.container:hover .img-2 img
+{
+   
+   left:220px;
+   -webkit-filter: drop-shadow(40px 25px 5px black);
+   
+}
+.img-2 img
+{
+    position:absolute;
+    height:70px;
+    width:70px;
+    rotate: 85deg;
+    top:363px;
+    left:300px;
+    -webkit-filter: drop-shadow(40px 25px 5px black);
+
+
+    
+}
+.container:hover .img-3 img
+{
+   rotate: 360deg;
+   left:350px;
+   top:-70px;
+   -webkit-filter: drop-shadow(-40px 25px 3px black);
+}
+.img-3 img
+{
+    position:absolute;
+    height:40px;
+    width:40px;
+    top:-20px;
+    left:400px;
+    -webkit-filter: drop-shadow(-40px 25px 3px black);
+}
+.container:hover .img-4 img
+{
+   rotate: 100deg;
+   top:220px;
+   -webkit-filter: drop-shadow(-40px 25px 3px black);
+    
+}
+.img-4 img
+{
+    position:absolute;
+    height:40px;
+    width:40px;
+    top:330px;
+    left:-20px;
+    -webkit-filter: drop-shadow(-40px 25px 3px black);
+    
+}
+.container:hover .img-5 img
+{
+   rotate: 200deg;
+   top:-40px;
+   left:540px;
+   -webkit-filter: drop-shadow(50px -15px 15px black);
+    
+}
+.img-5 img
+{
+    position:absolute;
+    height:50px;
+    width:50px;
+    top:50px;
+    rotate:45deg;
+    left:475px;
+    -webkit-filter: drop-shadow(50px -15px 15px black);
+}
